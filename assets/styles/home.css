@@ -1,0 +1,256 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.first {
+  width: 100%;
+  height: 100vh;
+  background: url("../assets/images//istockphoto-503685712-612x612.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-bottom: 10px solid grey;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.first nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 40px;
+  padding-left: 100px;
+  padding-right: 100px;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.first nav h6 {
+  color: red;
+  font-size: 2.3em;
+  font-weight: bold;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+}
+
+.first nav button {
+  width: 80px;
+  height: 40px;
+  background-color: red;
+  color: #fff;
+  border-radius: 5px;
+  border: none;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  gap: 20px;
+}
+
+.info h6 {
+  font-size: 3em;
+}
+
+.info p {
+  font: 1.3em sans-serif;
+}
+
+.info-form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  margin-top: 20px;
+}
+
+.info-form button {
+  background-color: red;
+  color: #fff;
+  width: 150px;
+  height: 40px;
+  border-radius: 5px;
+  border: none;
+  gap: 10px;
+  font-size: 1.2em;
+}
+
+.info-form input {
+  background-color: inherit;
+  color: #fff;
+  width: 200px;
+  height: 40px;
+  border-radius: 5px;
+  border: 1px solid #fff;
+  padding: 20px;
+}
+
+.info-form input:hover {
+  border-color: #fff;
+}
+
+.display {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: black;
+  color: #fff;
+  padding: 20px;
+  border-bottom: 10px solid grey;
+}
+
+.display h6 {
+  font-size: 3em;
+  margin-bottom: 20px;
+}
+
+.display p {
+  font-size: 1.3em;
+}
+
+.display-mobile {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: black;
+  color: #fff;
+  padding: 20px;
+  border-bottom: 10px solid grey;
+}
+
+.display-mobile h6 {
+  font-size: 3em;
+  margin-bottom: 20px;
+}
+
+.display-mobile p {
+  font-size: 1.3em;
+}
+
+.display-info {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  background-color: black;
+  color: #fff;
+  padding: 120px;
+  padding-left: 200px;
+  border-bottom: 10px solid grey;
+}
+
+.display-info h6 {
+  font-size: 3em;
+  margin-bottom: 20px;
+}
+
+.display-info p {
+  font-size: 1.3em;
+}
+
+.display-kiddies {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: black;
+  color: #fff;
+  padding: 20px;
+  border-bottom: 10px solid grey;
+}
+
+.display-kiddies h6 {
+  font-size: 3em;
+  margin-bottom: 20px;
+}
+
+.display-kiddies p {
+  font-size: 1.3em;
+}
+
+.display-footer {
+  background-color: #020202;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  text-align: center;
+  padding: 40px;
+  border-bottom: 10px solid grey;
+}
+
+.display-footer h6 {
+  font-size: 3em;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+.display-footer p {
+  font-size: 1.5em;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+.foot button {
+  width: 1000px;
+  background-color: #414141;
+  color: #fff;
+  font-size: 1.5em;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+.foot button:hover {
+  background-color: gray;
+  color: #fff;
+  cursor: pointer;
+}
+
+footer {
+  width: 100%;
+  padding: 50px;
+  background-color: #020202;
+}
+
+footer a {
+  color: grey;
+}
+
+.lin {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.lin aside a {
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+}
+
+footer form {
+  margin-top: 20px;
+  background-color: inherit;
+  color: #fff;
+}
+
+footer p {
+  color: grey;
+  margin-top: 20px;
+}
+
+footer form option i {
+  font-size: 2em;
+}

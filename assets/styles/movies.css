@@ -1,0 +1,199 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.moviesContainer nav {
+  width: 100%;
+  /* height: 100%; */
+  padding: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: black;
+}
+
+.overlay {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+}
+
+.nav-first {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 20px;
+}
+
+.nav-first p {
+  color: #fff;
+}
+
+.nav-first a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.nav-first a:hover {
+  color: gray;
+}
+
+.signs {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 10px;
+  color: #fff;
+  padding-right: 100px;
+}
+
+.signs i {
+  margin-top: 15px;
+}
+
+#cars {
+  background-color: black;
+  color: #fff;
+  width: 10px;
+  padding: 20px;
+  height: 2px;
+  border: none;
+}
+
+#cars i {
+  width: 50px;
+  color: red;
+}
+
+.fa-solid fa-pencil {
+  width: 40px;
+  background-color: gray;
+}
+
+footer {
+  width: 100%;
+  height: 40vh;
+  padding: 50px;
+  padding-right: 150px;
+  background-color: #020202;
+  position: relative;
+}
+
+footer a {
+  color: grey;
+}
+
+.lin {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.lin aside a {
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+}
+
+footer p {
+  color: grey;
+  margin-top: 20px;
+}
+
+footer .butt {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+  gap: 20px;
+  font-size: 0.7em;
+  font-family: Arial, Helvetica, sans-serif;
+  color: gray;
+}
+
+footer .butt button {
+  background-color: inherit;
+  color: gray;
+  width: 100px;
+  height: 29px;
+  border: 1px solid #fff;
+}
+
+footer .butt button:hover {
+  background-color: #020202;
+  color: #fff;
+}
+
+.movie-card {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  background-color: #020202;
+}
+
+.movie-card figure {
+  position: relative;
+}
+
+.movie-card figure video {
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+  border: 6px;
+}
+
+.movie-card figure figcaption {
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 320px;
+  height: 140px;
+  padding: 20px;
+  transition: opacity 0.3s;
+  position: absolute;
+  top: 55%;
+  opacity: 0;
+  transform: translateY(100%);
+  transition: transform 0.5s, opacity 0.5s;
+}
+
+.movie-card figure:hover figcaption {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.movie-card figcaption i {
+  color: #fff;
+  border: 2px solid #fff;
+  border-radius: 25px;
+  font-size: 0.8em;
+  padding: 3px;
+}
+
+.movie-card .icons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.movie-info {
+  display: flex;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.feel {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  color: #fff;
+  font-size: 1em;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 20px;
+}
+
+.collection ul {
+  list-style: none;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
